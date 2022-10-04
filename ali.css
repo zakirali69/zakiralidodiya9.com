@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    /*background-color: bisque;*/
+}
+
+.main
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+/*header*/
+
+.header
+{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    display: inline-block;
+    box-shadow: 0 0 20px 0 black;
+    padding-bottom: 10px;
+    
+}
+.middle
+{
+    width: 940px;
+    margin: auto;
+}
+.header img
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.navbaar
+{
+    float: right;
+}
+
+.navbaar ul li
+{
+    float: left;
+    padding: 36px 20px;
+    font-size: 25px;
+    list-style: none;
+}
+.navbaar ul li a
+{
+    color: navy;
+    text-decoration:none ;
+    font-family: 'Lato', calibri, Arial, sans-serif;
+}
+
+.navbaar ul li a:hover
+{
+    color: brown;
+    border-bottom: 2px solid navy;
+} 
+
+
+/* end header */
+
+.space
+{
+    padding: 100px 0;
+}
+.space1
+{
+    padding: 50px 0;
+}
+
+/*profile*/
+
+.profile
+{
+    width: 100%;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+
+.profile ul li
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    list-style: none;
+    font-size: 30px;
+    padding-bottom: 50px;
+    font-weight: bold;
+      
+}
+.profile ul li a
+{
+    border-bottom: 3px solid brown;
+    
+}
+
+
+.profile-left
+{
+    float: left;
+}
+.profile-left p
+{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profile-left b
+{
+    font-size: 50px;
+    font-family: 'Lato', calibri, Arial, sans-serif;
+    animation: text_reveal_name .5s ease forwards;
+
+}
+.profile-left b:nth-child(1) span
+{
+    animation: text_reveal_name .5s ease forwards;
+    animation-delay: 0.5s;
+}
+.profile-left b span
+{
+    color: brown;
+}
+
+
+
+
+.profile-right
+{
+    float: right;
+}
+.profile-right img
+{
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 30px 0 black;
+}
+
+/*End Profile*/
+
+/*About*/
+.about
+{
+    height: 650px;
+    padding-top: 100px;
+    background-color: brown;
+}
+
+.about ul li
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    list-style: none;
+    font-size: 30px;
+    padding-bottom: 100px;
+    font-weight: bold;
+      
+}
+.about ul li a
+{
+    border-bottom: 3px solid white;
+    
+}
+
+.about-left img
+{
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 20px 0 black;
+}
+.about-left
+{
+    float: left;
+}
+.about-right
+{
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-right p
+{
+    font-size: 50px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-right b
+{
+    font-size: 50px;
+    color:  lightseagreen;
+    font-family: 'Lato', calibri, Arial, sans-serif;
+}
+
+
+
+
+/*End About*/
+
+/*Contact*/
+.contact
+{
+    padding-top: 100px;
+}
+
+.top ul li
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    list-style: none;
+    font-size: 30px;
+    padding-bottom: 50px;
+    font-weight: bold;
+      
+}
+.top ul li a
+{
+    border-bottom: 3px solid brown;
+    
+}
+
+
+
+.bottom ul li
+{
+    float: left;
+    padding-left: px;
+    font-size: 30px;
+    text-decoration: none;
+    color: red;
+
+}
+.bottom ul  
+{
+    list-style: none;
+    text-align: center;
+   
+}
+
+.bottom ul li a 
+{
+    padding: 0 80px;    
+    list-style: none;
+    color: black;    
+}
+.fa-twitter:hover
+{
+    color: #00acee;
+}
+.fa-envelope:hover
+{
+    color: #bb001b;
+}.fa-facebook:hover
+{
+    color: #4267b2;
+}.fa-instagram:hover
+{
+    color: #fccc63;
+}
+
+
+/*End Contact*/
+
+
+
+
+
+
+
+
+
